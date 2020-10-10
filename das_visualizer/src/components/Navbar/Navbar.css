@@ -1,0 +1,72 @@
+.navbar {
+	background-color: rgb(48, 48, 48);
+	width: 100%;
+	height: 4rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.logo {
+	background-color: transparent;
+	width: 15rem;
+}
+
+.navbar h2 {
+	color: white;
+	margin-left: 1rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+.logo h2:hover {
+	color: rgb(0, 255, 174);
+	cursor: pointer;
+}
+
+.list {
+	float: right;
+	margin-top: -3rem;
+	margin-right: 1rem;
+	background-color: rgb(48, 48, 48);
+}
+
+.list li {
+	display: inline-block;
+	color: white;
+	padding-right: 2rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 1.2rem;
+	background-color: transparent;
+}
+
+li:hover .ds-dropdown {
+	display: block;
+
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background-color: rgb(48, 48, 48);
+}
+
+.ds-dropdown li {
+	/* background-color: rgb(48, 48, 48); */
+	display: block;
+	padding-bottom: 0.5rem;
+}
+
+li:hover {
+	color: rgb(0, 255, 174);
+	cursor: pointer;
+}
+
+.ds-dropdown {
+	color: rgb(48, 48, 48);
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	border-radius: 5%;
+}

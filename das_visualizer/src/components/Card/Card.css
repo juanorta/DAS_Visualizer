@@ -1,0 +1,40 @@
+.card h3 {
+	/* color: red; */
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	background-color: transparent;
+	padding-top: 8rem;
+}
+
+.card {
+	text-align: center;
+}
+
+.card-wrapper {
+	background-color: rgb(48, 48, 48);
+	height: 18rem;
+	width: 18rem;
+	transition: all 0.2s ease-in-out;
+	border-radius: 5%;
+}
+
+.card-wrapper:hover {
+	transform: scale(1.1, 1.1);
+	cursor: pointer;
+}
+
+.card-wrapper:hover h3 {
+	color: rgb(0, 255, 174);
+}
+
+@media (max-width: 1440px) {
+	.card-wrapper {
+		height: 13rem;
+		width: 13rem;
+	}
+
+	.card h3 {
+		padding-top: 6rem;
+	}
+}
