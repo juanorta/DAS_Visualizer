@@ -1,0 +1,67 @@
+.code-snippets-wrapper {
+	height: 100vh;
+	background-color: transparent;
+	overflow-y: scroll;
+	border-left: 1px solid rgb(48, 48, 48);
+}
+
+.code-wrapper {
+	background-color: rgb(48, 48, 48);
+	height: 9rem;
+	width: 22rem;
+	margin-left: 20%;
+	border-radius: 20px;
+	margin-top: 1rem;
+	animation: fadeIn ease 2s;
+}
+
+.code-wrapper code {
+	display: block;
+	color: rgb(0, 255, 174);
+	padding-top: 5%;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-o-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

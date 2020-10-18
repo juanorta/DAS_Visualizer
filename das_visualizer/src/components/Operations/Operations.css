@@ -1,0 +1,208 @@
+.operations-wrapper {
+	background-color: transparent;
+	width: 100%;
+	height: 100vh;
+	border-right: 1px solid rgb(48, 48, 48);
+}
+
+.column-header {
+	background-color: transparent;
+	width: 100%;
+	height: 7rem;
+	color: black;
+	text-align: center;
+}
+
+.column-header h2 {
+	color: rgb(48, 48, 48);
+	margin-top: 4rem;
+	padding-top: 1rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+.create {
+	margin-top: 60%;
+	height: 3rem;
+	width: 8rem;
+	color: white;
+	background-color: rgb(48, 48, 48);
+	border: none;
+	border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 1.2rem;
+}
+
+.create:hover {
+	color: rgb(0, 255, 174);
+	background-color: rgb(70, 68, 68);
+	cursor: pointer;
+}
+
+.create-clicked {
+	display: none;
+}
+
+.row-btn {
+	display: none;
+}
+
+.row-btn-clicked {
+	margin-top: 60%;
+	height: 3rem;
+	width: 7rem;
+	margin-right: 1rem;
+	color: white;
+	background-color: rgb(48, 48, 48);
+	border: none;
+	border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+.row-btn-clicked:hover {
+	color: rgb(0, 255, 174);
+	background-color: rgb(70, 68, 68);
+	cursor: pointer;
+}
+
+.fixed {
+	display: none;
+}
+
+.row-fixed:hover {
+	color: rgb(0, 255, 174);
+	background-color: rgb(70, 68, 68);
+	cursor: pointer;
+}
+
+.clear {
+	display: none;
+}
+
+.clear-btn {
+	position: absolute;
+	margin-top: 30%;
+	margin-left: -5%;
+	height: 3rem;
+	width: 9rem;
+	margin-right: 1rem;
+	color: white;
+	background-color: rgb(48, 48, 48);
+	border: none;
+	border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+.clear-btn:hover {
+	color: rgb(0, 255, 174);
+	background-color: rgb(70, 68, 68);
+	cursor: pointer;
+}
+
+.random-dropdown {
+	display: none;
+}
+
+.random-dropdown-on {
+	height: 7rem;
+	width: 9rem;
+	background-color: red;
+	margin-top: -11rem;
+	margin-left: 17.9rem;
+	background-color: rgb(48, 48, 48);
+	border-radius: 20px;
+}
+
+.size {
+	display: none;
+	height: 4rem;
+	width: 4rem;
+	background-color: red;
+	margin-top: 3rem;
+}
+
+.row-fixed:hover .size {
+	display: block;
+}
+/* 
+.operations-wrapper {
+	background-color: red;
+	height: 8rem;
+} */
+
+.operation-btn {
+	display: none;
+}
+
+.operation-btn-on {
+	display: inline;
+	color: white;
+	background-color: rgb(48, 48, 48);
+	border: none;
+	border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+	height: 3rem;
+	width: 9rem;
+	margin-bottom: 1rem;
+	margin-right: 2rem;
+	margin-top: 10%;
+}
+
+.operation-btn-on:hover {
+	color: rgb(0, 255, 174);
+	background-color: rgb(70, 68, 68);
+	cursor: pointer;
+}
+
+.functionModal {
+	display: none;
+}
+
+.functionModal-on {
+	display: block;
+	position: absolute;
+	z-index: 200;
+	background-color: rgb(48, 48, 48);
+	border-radius: 20px;
+	height: 7rem;
+	width: 34rem;
+	margin-top: -35%;
+	margin-left: 36%;
+}
+
+.functionModal-on h2 {
+	color: white;
+	margin-top: -0.5rem;
+}
+
+.functionModal-on input {
+	width: 4rem;
+	height: 1.5rem;
+	margin-right: 1rem;
+}
+
+.functionModal-on button {
+	background-color: rgb(0, 255, 174);
+	border: none;
+	height: 1.5rem;
+	width: 4rem;
+	border-radius: 5px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+
+.exit {
+	color: white;
+	float: left;
+	margin-top: -3rem;
+	margin-left: 1rem;
+	font-family: 'Montserrat', sans-serif;
+	cursor: pointer;
+}
